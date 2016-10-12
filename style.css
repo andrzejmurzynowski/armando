@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+    padding-top: 25px;
+    margin-bottom: 0;
+  	
+}
+
+.pull-right{
+  /*border: 3px solid orange;*/
+  float: right;
+}
+
+ul {
+  background-color: white;
+  border-radius: 8px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  font-size: 14px;
+  /*padding: 10px 15px 10px 15px;*/
+  border-radius: 4px;
+}
+h2 {
+  color: white;
+}
+
+a {
+  color: #F02856;
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  background-color: white;
+  border-radius: 4px;
+}
+a:hover {
+  background-color: #EEEEEE;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  color: #F02856;
+  border-radius: 4px;
+  border: 1px solid #F02856;
+}
+.active {
+  background-color: #F02856;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid transparent;
+}
+/*.active:hover {
+  background-color: white;
+  color: #F02856;
+  border: 1px solid #F02856;
+}*/
+.col-md-4 {
+  padding: 10px;
+  /*margin: 5px;*/
+  }
+img {
+  width: 98%;
+}
+
+footer {
+  border: 3px solid orange;
+  height: 400px;
+  background-color: white;
+}
